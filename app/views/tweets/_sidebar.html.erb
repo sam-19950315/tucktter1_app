@@ -31,8 +31,10 @@
               <b class="top-item">コーチ</b>
             </div>
               <ul>
-                <li><%= link_to "自分のコーチ一覧", tweets_path, class: "side-bar-content" %></li>
-                <li><%= link_to "アンケート", tweets_path, class: "side-bar-content" %></li>
+                <li><b><h2>担当コーチとのチャットルーム一覧</h2></b></li>
+                <% current_user.chat_rooms.each do |room| %>
+                  <li><%= link_to "・#{room.room_name}", user_chat_room_chats_path(current_user.id,room.id), class: "side-bar-content" %></li>
+                <% end %>
                 <li><%= link_to "コーチになる", edit_user_path(current_user.id), class: "side-bar-content" %></li>
               </ul>
           </div>
@@ -42,9 +44,11 @@
               <b class="top-item">コーチ</b>
             </div>
               <ul>
-                <li><%= link_to "自分の生徒一覧", tweets_path, class: "side-bar-content" %></li>
-                <li><%= link_to "主体的な学びへのシート", tweets_path, class: "side-bar-content" %></li>
-                <li><%= link_to "コーチランキング", tweets_path, class: "side-bar-content" %></li>
+                <li><b><h2>担当する生徒とのチャットルーム一覧</h2></b></li>
+                <% current_user.chat_rooms.each do |room| %>
+                  <li><%= link_to "・#{room.room_name}", user_chat_room_chats_path(current_user.id,room.id), class: "side-bar-content" %></li>
+                <% end %>
+                <li><h2><%= link_to "主体的な学びへのシート", "https://docs.google.com/forms/d/e/1FAIpQLSdznS3YZw-NZ6ARwzeuWNjZs0lfGXCvCIWJu-Zdemt-qCbL6g/viewform?usp=pp_url", class: "side-bar-content" %></h2></li>
               </ul>
           </div>
             <% end %>
