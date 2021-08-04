@@ -48,7 +48,11 @@
                 <% current_user.chat_rooms.each do |room| %>
                   <li><%= link_to "・#{room.room_name}", user_chat_room_chats_path(current_user.id,room.id), class: "side-bar-content" %></li>
                 <% end %>
-                <li><h2><%= link_to "主体的な学びへのシート", "https://docs.google.com/forms/d/e/1FAIpQLSdznS3YZw-NZ6ARwzeuWNjZs0lfGXCvCIWJu-Zdemt-qCbL6g/viewform?usp=pp_url", class: "side-bar-content" %></h2></li>
+                <li><h2>
+                  <%= link_to "tweets/cauch_learning", class: "side-bar-content" do%>
+                    コーチングの方法<br>(是非ご一読ください)
+                  <%end%>
+                </h2></li>
               </ul>
           </div>
             <% end %>
