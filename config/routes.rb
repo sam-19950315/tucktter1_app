@@ -4,6 +4,9 @@ Rails.application.routes.draw do
   
   root to: 'lp#index'
   resources :tweets do
+    collection do
+      get 'cauch_learning'
+    end
     resources :comments,only: [:index,:create] do
     end
       resources :tweet_likes, only: [:index,:create,:destroy]

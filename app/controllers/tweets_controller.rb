@@ -34,6 +34,10 @@ class TweetsController < ApplicationController
     @likes = @tweet.tweet_likes.includes(:user)  
   end
 
+  def cauch_learning
+    
+  end
+
   private
 
   def return_index
