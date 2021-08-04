@@ -1,3 +1,21 @@
-// Place all the styles related to the chats controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+.content-area{
+  width: 80vw;
+  height: 60vh;
+  overflow: scroll;
+}
+
+.post-form{
+  width: 80vw;
+  height: 13vh;
+  background-color: papayawhip;
+}
+
+.index_room_name{
+  display: flex;
+  align-items: center;
+}
+
+.researcher_name{
+  margin-left: 10px;
+  color: #fad9e9;
+}

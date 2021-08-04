@@ -5,11 +5,9 @@ class ChatRoomController < ApplicationController
   end
 
   def create
-    binding.pry
     user_id = User.find(params[:user_id])
-    chat_room_id = ChatRoom.find(params[:chat_room_id])
-    ChatRoom.create(chat_room_params)
-    redirect_to user_chat_room_chats_path(user_id,chat_room_id)
+    @chat_room = ChatRoom.create(chat_room_params)
+    redirect_to user_chat_room_chats_path(user_id,@chat_room.id)
   end
 
   private
