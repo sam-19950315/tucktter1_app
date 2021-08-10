@@ -31,7 +31,7 @@
               <% @comments.each do |comment| %>
                 <% if comment.user.present? %>
                 <p>
-                  <strong><%= link_to comment.user.Nickname, "/users/#{comment.user_id}" %></strong>
+                  <strong><%= link_to comment.user.Nickname, user_path(comment.user.id) %></strong>
                   <%= comment.text %>
                 </p>
                 <% end %>
