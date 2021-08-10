@@ -3,6 +3,7 @@
       <%= render partial: "sidebar" %>
       <div class="main">
        <%= render partial: "postfunction" %>
+      <p class="error_message"><%= flash[:error_tweet] %></p>
       </div>
     </div>
     <%= render partial: "footer" %>
