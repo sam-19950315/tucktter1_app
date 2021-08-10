@@ -10,9 +10,13 @@ class TweetsController < ApplicationController
   def new
     @tweet = Tweet.new
   end
-
   def create
-    Tweet.create(tweet_params)
+    @tweet = Tweet.create(tweet_params)
+    if @tweet.save
+    else
+      flash.now[:error_tweet] = "つぶやきの内容は必須です。140文字以内で投稿してください。"
+      render :new
+    end
   end
 
   def destroy
