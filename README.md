@@ -21,3 +21,5 @@ Pass:
 * DB:MySQL
 * OS:AmazonLinux2
 * プロジェクト管理:git(version:2.30.1)
+
+# DB設計
