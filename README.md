@@ -3,18 +3,11 @@
 
 <img width="1440" alt="tucktter_LP" src="https://user-images.githubusercontent.com/77444865/129043449-82b37b81-e09c-48d6-93f8-59886b825ea5.png">
 
-* 使用言語:ruby 2.6.5
+* URL:http://3.112.138.45:3000/
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* 使用言語:ruby (version:2.6.5)
+* フレームワーク:Ruby on Rails
+* インフラ:AWS(EC2,S3,RDS)
+* DB:MySQL
+* OS:AmazonLinux2
+* プロジェクト管理:git(version:2.30.1)
