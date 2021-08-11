@@ -5,7 +5,7 @@
 
 * 使用言語
 
- ruby 2.6.5
+ * ruby 2.6.5
 
 * Configuration
 
