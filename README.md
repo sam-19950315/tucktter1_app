@@ -26,4 +26,5 @@ Pass:
 * エディタ:VSCode
 
 # DB設計
+<img width="471" alt="スクリーンショット 2021-08-11 23 57 02" src="https://user-images.githubusercontent.com/77444865/129052910-f964c756-f3f0-4735-986d-aafbaa5be007.png">
 
