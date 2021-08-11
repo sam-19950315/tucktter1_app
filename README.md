@@ -17,9 +17,13 @@ Pass:
 # 開発環境
 * 使用言語:ruby (version:2.6.5)
 * フレームワーク:Ruby on Rails
-* インフラ:AWS(EC2,S3,RDS)
+* インフラ:AWS(EC2,S3,RDS),Capistrano
+* アプリケーションサーバー:unicorn
 * DB:MySQL
 * OS:AmazonLinux2
 * プロジェクト管理:git(version:2.30.1)
+* テスト:Rspec
+* エディタ:VSCode
 
 # DB設計
+
