@@ -20,12 +20,12 @@ Pass:123456
 大学生などの講師にアドバイスをもらうことで、研究の道筋を見つけ、昨年とは違った完成度の高い自由研究に仕上げたい！
 # 開発環境
 * 使用言語:ruby (version:2.6.5)
-* フレームワーク:Ruby on Rails
+* フレームワーク:Ruby on Rails(version:6.0.4)
 * インフラ:AWS(EC2,S3,RDS),Capistrano
 * アプリケーションサーバー:unicorn
-* DB:MySQL
+* DB:MariaDB(version:5.5.68)
 * OS:AmazonLinux2
-* プロジェクト管理:git(version:2.30.1)
+* プロジェクト管理:git
 * テスト:Rspec
 * エディタ:VSCode
 
