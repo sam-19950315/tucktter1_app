@@ -34,6 +34,12 @@ Pass:123456
 ②ソフトウェアダウンロード機能:Command Line Toolsのインストール
 ③ソフトウェア管理ツール:Homebrewのインストール
 ④ruby (version:2.6.5)のダウンロード
+⑤MySQL(version:5.6.51),Sequel Proのインストール
+⑥shared-mime-infoのインストール
+⑦gem管理機能:bundler(version:2.1.4)のインストール
+⑧rails(version:6.0.4)のインストール
+⑨Node.js(version:14.15.3)のインストール
+⑩yarn(version:1.22.10)のインストール
 
 # DB設計
 <img width="471" alt="スクリーンショット 2021-08-11 23 57 02" src="https://user-images.githubusercontent.com/77444865/129052910-f964c756-f3f0-4735-986d-aafbaa5be007.png">
