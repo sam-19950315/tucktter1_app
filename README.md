@@ -29,6 +29,12 @@ Pass:123456
 * テスト:Rspec
 * エディタ:VSCode
 
+# Local環境構築手順
+①エディタ:VSCodeのインストール
+②ソフトウェアダウンロード機能:Command Line Toolsのインストール
+③ソフトウェア管理ツール:Homebrewのインストール
+④ruby (version:2.6.5)のダウンロード
+
 # DB設計
 <img width="471" alt="スクリーンショット 2021-08-11 23 57 02" src="https://user-images.githubusercontent.com/77444865/129052910-f964c756-f3f0-4735-986d-aafbaa5be007.png">
 
